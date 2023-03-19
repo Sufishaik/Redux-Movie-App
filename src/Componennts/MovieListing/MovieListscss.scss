@@ -1,0 +1,77 @@
+@import "../../Common/Colors.scss";
+
+h5, p {
+    color: white;
+}
+
+
+.card img {
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    width: 15%;
+    margin-left: 1.2rem;
+    float: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.show {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    // margin-left: 2rem ;
+    padding: 1.2rem;
+}
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.card-body {
+    border: 2px solid #333;
+    // text-align: center;
+    height: 150px;
+    padding: 1rem;
+    width: 50%;
+    background-color: #333;
+}
+
+.title {
+    font-weight: 1000;
+    margin-bottom: 1rem;
+}
+.type {
+    margin-bottom: 1rem;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+.head {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}

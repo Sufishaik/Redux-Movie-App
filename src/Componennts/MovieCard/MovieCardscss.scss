@@ -1,0 +1,43 @@
+@import "../../Common/Colors.scss";
+
+span,div {
+    color: white;
+}
+.details-left {
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 4rem;
+}
+
+.rating  {
+    margin-bottom: 2rem;   
+}
+
+.rating span {
+    color: $font-secondary;
+
+}
+
+.plot {
+    margin-bottom: 2rem;
+}
+
+
+.info > div span:first-child {
+   
+    display: inline-block;
+    padding: 10px 0;
+    width: 100px;
+    color: $font-primary;
+}
+
+.info > div span {
+    color: $font-secondary;
+}
